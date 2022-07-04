@@ -1,0 +1,14 @@
+{
+	"name": "ecommerce",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "concurrently \"yarn server\" \"yarn client\"",
+		"server": "yarn --cwd ./backend/ start",
+		"client": "yarn --cwd ./frontend/ start"
+	},
+	"dependencies": {
+		"concurrently": "^7.2.2"
+	}
+}
