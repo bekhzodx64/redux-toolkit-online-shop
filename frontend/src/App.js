@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
 	return (
 		<div>
-			<ToastContainer />
+			<ToastContainer limit={3} newestOnTop />
 			<NavBar />
 			<Routes>
 				<Route path='/' element={<Home />} />

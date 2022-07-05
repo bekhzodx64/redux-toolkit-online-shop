@@ -201,12 +201,13 @@
 	}
 
 	.cart-product-quantity button {
+		width: 100%;
 		outline: none;
-		padding: 0.7rem 1.5rem;
+		padding: 0.7rem 0;
 	}
 
 	.cart-product-quantity .count {
-		padding: 0.7rem 0;
+		padding: 0.7rem 0.5rem;
 	}
 
 	.cart-product-total-price {
